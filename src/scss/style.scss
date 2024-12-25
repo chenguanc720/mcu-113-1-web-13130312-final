@@ -5,6 +5,11 @@
   --logo-color: rgb(78, 159, 218);
 
   --text-color: rgb(68, 68, 68);
+  --first-color: rgb(57, 19, 245);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +30,7 @@ body {
   padding-inline: 10vw;
 
   .home-box {
+    padding-block: 6em;
     height: 100vh;
     min-height: 700px;
   }
