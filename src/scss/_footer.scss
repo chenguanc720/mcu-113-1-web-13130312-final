@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  padding-block: 40px 60px;
+
+  .top-footer {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
